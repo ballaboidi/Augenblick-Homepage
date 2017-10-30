@@ -1,0 +1,122 @@
+* {
+  font-family: 'Montserrat';
+  padding: 0;
+  margin: 0; }
+
+header {
+  top: 0;
+  width: 100%; }
+
+#navbar .logo {
+  float: left;
+  margin: 10px 10px; }
+
+#navbar .logo h2 {
+  font-size: 20px;
+  margin: 10px 10px; }
+
+#navbar .logo h2 a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 200; }
+
+#navbar .logo h2 a:hover {
+  font-weight: bold; }
+
+#navbar nav ul {
+  float: right;
+  margin: 10px 30px 10px 10px; }
+
+#navbar nav ul li {
+  display: inline;
+  float: left;
+  font-size: 20px;
+  margin: 10px 15px;
+  font-weight: 200; }
+
+#navbar nav ul li:hover {
+  text-decoration: underline; }
+
+#navbar nav a {
+  text-decoration: none;
+  color: #000000; }
+
+#showcase {
+  background: #000000;
+  color: #ffffff;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+#showcase svg {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: 5em; }
+
+#showcase h1 {
+  font-family: 'Montserrat';
+  font-weight: 200;
+  font-size: 60px; }
+
+#showcase h2 {
+  font-family: 'Montserrat';
+  font-weight: 200;
+  font-size: 40px; }
+
+#showcase hr {
+  width: 60%;
+  margin: 20px 0; }
+
+#about .container {
+  background: #fff;
+  height: 700px;
+  width: 100%; }
+
+#about .container h2 {
+  font-size: 30px;
+  font-weight: 200;
+  padding: 30px 0 10px 40px; }
+
+#about .container hr {
+  margin: 5px 10px 30px 40px;
+  width: 90%; }
+
+#about .container .image {
+  height: 500px;
+  width: 400px;
+  float: left;
+  border: solid 3px #000;
+  margin: 0 0 20px 80px; }
+
+#about .container .image .placeholder-image {
+  position: relative;
+  text-align: center;
+  top: 50%; }
+
+#about .container .textabout {
+  width: 50%;
+  display: block;
+  float: right;
+  padding-right: 80px;
+  margin-top: 30px; }
+
+#about .container .textabout p {
+  font-weight: 200; }
+
+#foto .container h2 {
+  font-size: 30px;
+  font-weight: 200;
+  float: right;
+  padding: 30px 80px 10px 0; }
+
+#foto .container hr {
+  margin: 5px 10px 30px 40px;
+  width: 90%; }
